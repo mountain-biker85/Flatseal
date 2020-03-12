@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the flatseal package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: flatseal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-03 12:59-0300\n"
+"PO-Revision-Date: 2020-03-12 17:42+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: Протасов Алексей aka mountain-biker85 <a.protasov."
+"msk@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#. TRANSLATORS: Don't translate this text
+#: data/com.github.tchx84.Flatseal.desktop.in:4
+#: data/com.github.tchx84.Flatseal.appdata.xml.in:4
+msgid "Flatseal"
+msgstr ""
+
+#: data/com.github.tchx84.Flatseal.desktop.in:10
+#: data/com.github.tchx84.Flatseal.appdata.xml.in:9
+msgid "A permissions manager for Flatpak"
+msgstr "Менеджер разрешений для Flatpak"
+
+#. TRANSLATORS: Don't translate this text
+#: data/com.github.tchx84.Flatseal.desktop.in:12
+msgid "com.github.tchx84.Flatseal"
+msgstr ""
+
+#: data/com.github.tchx84.Flatseal.appdata.xml.in:11 src/aboutDialog.ui:11
+msgid ""
+"Flatseal is a graphical utility to review and modify basic permissions from "
+"your Flatpak applications."
+msgstr ""
+"Flatseal — это графическая утилита для проверки и изменения основных "
+"разрешений от приложений Flatpak."
+
+#. TRANSLATORS: Don't translate this text
+#: data/com.github.tchx84.Flatseal.appdata.xml.in:31
+msgid "Martin Abente Lahaye"
+msgstr ""
+
+#: src/window.ui:27
+msgid "Applications"
+msgstr "Приложения"
+
+#: src/window.ui:151
+msgid "No applications found."
+msgstr "Приложения не найдены."
+
+#: src/model.js:24
+msgid "List of subsystems shared with the host system"
+msgstr "Список подсистем, совместно используемых с хост-системой"
+
+#: src/model.js:25
+msgid "List of well-known sockets available in the sandbox"
+msgstr "Список известных сокетов, доступных в песочнице"
+
+#: src/model.js:26
+msgid "List of devices available in the sandbox"
+msgstr "Список устройств, доступных в песочнице"
+
+#: src/model.js:27
+msgid "List of features available to the application"
+msgstr "Список функций, доступных для приложения"
+
+#: src/model.js:28
+msgid "List of filesystem subsets available to the application"
+msgstr "Список подмножеств файловой системы, доступных приложению"
+
+#: src/model.js:41
+msgid "Network"
+msgstr "Сеть"
+
+#: src/model.js:46
+msgid "Inter-process communications"
+msgstr "Межпроцессовые коммуникации"
+
+#: src/model.js:51
+msgid "X11 windowing system"
+msgstr "Система окон X11"
+
+#: src/model.js:56
+msgid "Wayland windowing system"
+msgstr "Система окон Wayland"
+
+#: src/model.js:61
+msgid "Fallback to X11 windowing system"
+msgstr "Откат к оконной системе X11"
+
+#: src/model.js:66
+msgid "PulseAudio sound server"
+msgstr "Звуковой сервер PulseAudio"
+
+#: src/model.js:71
+msgid "D-Bus session bus"
+msgstr "Шина сессии D-Bus"
+
+#: src/model.js:76
+msgid "D-Bus system bus"
+msgstr "Шина сессии D-Bus"
+
+#: src/model.js:81
+msgid "Secure Shell agent"
+msgstr "Агент Secure Shell"
+
+#: src/model.js:86
+msgid "Smart cards"
+msgstr "Smart-карты"
+
+#: src/model.js:91
+msgid "Printing system"
+msgstr "Система печати"
+
+#: src/model.js:96
+msgid "GPU acceleration"
+msgstr "GPU-ускоритель"
+
+#: src/model.js:101
+msgid "Virtualization"
+msgstr "Виртуализация"
+
+#: src/model.js:106
+msgid "Shared memory (e.g. JACK sound server)"
+msgstr "Общая память (например, звуковой сервер JACK)"
+
+#: src/model.js:111
+msgid "All devices (e.g. webcam)"
+msgstr "Все устройства (например, веб-камера)"
+
+#: src/model.js:116
+msgid "Development syscalls (e.g. ptrace)"
+msgstr "Системные вызовы разработки (например, ptrace)"
+
+#: src/model.js:121
+msgid "Programs from other architectures"
+msgstr "Программы от других архитектур"
+
+#: src/model.js:126
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: src/model.js:131
+msgid "Controller Area Network bus"
+msgstr "Контроллер шины локальной сети"
+
+#: src/model.js:136
+msgid "All system files"
+msgstr "Все системные файлы"
+
+#: src/model.js:141
+msgid "All user files"
+msgstr "Все пользовательские файлы"
+
+#: src/model.js:146
+msgid "Other files"
+msgstr "Другие файлы"
+
+#: src/menu.ui:7
+msgid "Help"
+msgstr "Помощь"
+
+#: src/menu.ui:11
+msgid "Documentation"
+msgstr "Документация"
+
+#: src/menu.ui:15
+msgid "About Flatseal"
+msgstr "О программе"
+
+#: src/pathRow.js:24
+msgid "this absolute path"
+msgstr "этот абсолютный путь"
+
+#: src/pathRow.js:25
+msgid "this path relative to the home directory"
+msgstr ""
+"этот относительный путь\n"
+" домашнего каталога"
+
+#: src/pathRow.js:26
+msgid "all system files"
+msgstr "все системные файлы"
+
+#: src/pathRow.js:27
+msgid "all user files"
+msgstr "все пользовательские файлы"
+
+#: src/pathRow.js:28
+msgid "the desktop directory"
+msgstr "каталог рабочего стола"
+
+#: src/pathRow.js:29
+msgid "the documents directory"
+msgstr "каталог документов"
+
+#: src/pathRow.js:30
+msgid "the download directory"
+msgstr "каталог загрузки"
+
+#: src/pathRow.js:31
+msgid "the music directory"
+msgstr "каталог музыки"
+
+#: src/pathRow.js:32
+msgid "the pictures directory"
+msgstr "каталог картинок"
+
+#: src/pathRow.js:33
+msgid "the public directory"
+msgstr "общий каталог"
+
+#: src/pathRow.js:34
+msgid "the videos directory"
+msgstr "каталог видео"
+
+#: src/pathRow.js:35
+msgid "the templates directory"
+msgstr "каталог шаблонов"
+
+#: src/pathRow.js:36
+msgid "the config directory"
+msgstr "каталог конфигурации"
+
+#: src/pathRow.js:37
+msgid "the cache directory"
+msgstr "каталог кэша"
+
+#: src/pathRow.js:38
+msgid "the data directory"
+msgstr "каталог данных"
+
+#: src/pathRow.js:39
+msgid "the runtime directory"
+msgstr "каталог исполняющей среды"
+
+#: src/pathRow.js:54
+#, javascript-format
+msgid "Can read: %s"
+msgstr "Можно прочитать: %s"
+
+#: src/pathRow.js:55
+#, javascript-format
+msgid "Can modify and read: %s"
+msgstr "Можно изменить и прочитать: %s"
+
+#: src/pathRow.js:56
+#, javascript-format
+msgid "Can create, modify and read: %s"
+msgstr "Можно создавать, изменять и читать: %s"
+
+#: src/pathRow.js:59
+msgid "This is not a valid option"
+msgstr "Это не является допустимым вариантом"
+
+#: src/permissionSwitchRow.js:37 src/permissionEntryRow.js:53
+msgid "Not supported by the installed version of Flatpak"
+msgstr "Не поддерживается установленной версией Flatpak"
+
+#: src/resetButton.js:33
+msgid "Reset"
+msgstr "Сброс"
+
+#: src/resetButton.js:41
+msgid "Reset this application permissions"
+msgstr "Сброс разрешений этого приложения"
+
+#: src/resetButton.js:43
+msgid "No changes made to this application"
+msgstr "Никаких изменений в этом приложении внесено не было"
