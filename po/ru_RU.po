@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the flatseal package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Этот файл распространяется под той же лицензией, что и пакет flatseal.
+# Протасов Алексей aka mountain-biker85 <a.protasov.msk@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
