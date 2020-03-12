@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Русский перевод для пакета flatseal
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # Этот файл распространяется под той же лицензией, что и пакет flatseal.
 # Протасов Алексей aka mountain-biker85 <a.protasov.msk@gmail.com>, 2020.
