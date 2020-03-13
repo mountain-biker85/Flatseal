@@ -139,7 +139,7 @@ msgstr "Все устройства (например, веб-камера)"
 
 #: src/model.js:116
 msgid "Development syscalls (e.g. ptrace)"
-msgstr "Системные вызовы разработки (например, ptrace)"
+msgstr "Отладка системных вызовов (например, ptrace)"
 
 #: src/model.js:121
 msgid "Programs from other architectures"
